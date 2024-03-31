@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `live demo`
 
 Runs the app in the development mode.\
-(https://filtrationtask2-upskilling.netlify.app/) to view it in your browser.
+[click here](https://filtrationtask2-upskilling.netlify.app/) to view it in your browser.
 
 ### `npm start`
 
