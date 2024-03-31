@@ -1,0 +1,94 @@
+.contact {
+  margin-top: 40px;
+}
+.contact h2 {
+  font-family: Sen;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 138.24px;
+  text-align: center;
+  color: #c98a40;
+}
+.contactBody {
+  width: 60%;
+  margin: 0 auto;
+}
+.conForm input {
+  width: 100%;
+  background-color: #ffd39f;
+  font-family: Sen;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 16.84px;
+  text-align: left;
+  padding: 20px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 50px;
+}
+.conForm input:focus,
+.conForm input:hover {
+  outline-color: #584125;
+}
+.conForm input::placeholder {
+  color: #584125;
+}
+
+.conForm button {
+  font-family: Sen;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 16.84px;
+  text-align: left;
+  background-color: transparent;
+  border: #c98a40 solid 3px;
+  padding: 20px 70px;
+  border-radius: 50px;
+  color: #584125;
+}
+.conForm button:hover {
+  background-color: #ffd39f;
+}
+
+.info {
+  margin-top: 60px;
+}
+.info i {
+  color: #c98a40;
+  padding: 15px 0;
+}
+.info a {
+  text-decoration: none;
+  color: #584125;
+  border: #c98a40 solid 3px;
+  border-radius: 50px;
+  /* margin: 20px 0; */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.info a:hover {
+  color: #584125;
+  background-color: #ffd39f;
+  border: #584125 solid 3px;
+}
+.info a:hover i {
+  color: #584125;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact h2 {
+    font-size: 110px;
+  }
+  .info {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact h2 {
+    font-size: 70px;
+  }
+  .info {
+    background-color: transparent;
+    margin-top: 30px;
+  }
+}

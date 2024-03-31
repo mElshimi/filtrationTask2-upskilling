@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap");
+.work {
+  position: relative;
+  background-color: #c98a40;
+  height: 840px;
+}
+.workTitle h2 {
+  font-family: Sen;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 138.24px;
+  text-align: right;
+  color: white;
+}
+.layer {
+  background-image: url(../../img/layer2.png);
+  background-size: contain;
+  position: absolute;
+  width: 38%;
+  /* width: 689px; */
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.workText p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #c98a40;
+  padding-top: 60px;
+  margin: auto 0;
+}
+.workProduct img {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .work {
+    height: 1000px;
+  }
+  .layer {
+    display: none;
+  }
+  .workText p {
+    color: white;
+  }
+  .workText p {
+    text-align: center;
+  }
+  .workTitle h2 {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+    .work {
+    height: 1700px;
+  }
+  .layer {
+    display: none;
+  }
+
+  .workText p {
+    color: white;
+  }
+  .workText p {
+    text-align: center;
+  }
+  .workTitle h2 {
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
