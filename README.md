@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `live demo`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000]([http://localhost:3000](https://filtrationtask2-upskilling.netlify.app/)) to view it in your browser.
+
 ### `npm start`
 
 Runs the app in the development mode.\
